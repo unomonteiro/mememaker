@@ -9,7 +9,10 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
- * Created by Evan Anger on 8/17/14.
+ * Created by Evan Anger on 8/17/14. changed by clm
+ * implements Serializable is used simply,
+ * so we can pass this object along,
+ * as a Serializable object in the intent
  */
 public class Meme implements Serializable {
     private int mId;
