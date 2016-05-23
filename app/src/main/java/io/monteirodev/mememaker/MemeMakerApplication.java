@@ -16,6 +16,8 @@ public class MemeMakerApplication extends android.app.Application {
         FileUtilities.saveAssetImage(this, "dogmess.jpg");
         FileUtilities.saveAssetImage(this, "excitedcat.jpg");
         FileUtilities.saveAssetImage(this, "guiltypup.jpg");
+        FileUtilities.saveAssetImage(this, "philosoraptor.jpg");
+        FileUtilities.saveAssetImage(this, "wonka.jpg");
 
         PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
     }
